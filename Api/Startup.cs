@@ -166,7 +166,7 @@ public class Startup
             })
             .RequireAuthorization()
             .RequireAuthorization(new AuthorizeAttribute { Roles = "Adm" })
-            .WithTags("Veiculos");
+            .WithTags("Administradores");
 
             endpoints.MapPost("/administradores", ([FromBody] AdministratorDTO administratorDTO, 
                                 IAdministratorService administratorService) => {
