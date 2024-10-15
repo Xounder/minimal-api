@@ -1,6 +1,6 @@
 # Minimal API
 
-A minimalist API for vehicle and administrator management. This project is built with .NET and uses the Minimal API architecture to provide a simple and effective interface.
+A minimalist API for vehicle and administrator management using Authentication and Authorization. This project is built with .NET and uses the Minimal API architecture to provide a simple and effective interface.
 
 ## Endpoints
 
